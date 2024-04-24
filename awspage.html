@@ -50,19 +50,19 @@
         const buttonId = this.id;
         switch (buttonId) {
           case 'createInstanceBtn':
-            handleAction('https://kxk0wjda1j.execute-api.ap-south-1.amazonaws.com/integration/ec2');
+            handleAction('executable API of ec2 instance');
             break;
           case 'createS3BucketBtn':
-            handleAction('https://n99xu3xxfj.execute-api.ap-south-1.amazonaws.com/s3creation/bucket');
+            handleAction('executable API of s3 creation bucket');
             break;
           case 'createEbsVolumeBtn':
-            handleAction('https://ovdzcg0qf3.execute-api.ap-south-1.amazonaws.com/ebscreate/ebscreate');
+            handleAction('executable API of ebs volume creation');
             break;
           case 'attachEbsVolumeBtn':
-            handleAction('https://llxcd1mlbl.execute-api.ap-south-1.amazonaws.com/volumeattach/volumeattach');
+            handleAction('executable API to attach ebs volume');
             break;
           case 'deleteEbsVolumeBtn':
-            handleAction(' https://nx9sy754v7.execute-api.ap-south-1.amazonaws.com/volumedelete/deletevolume');
+            handleAction('executable API of to delete ebs volume');
             break;
           default:
             console.error('Unknown button ID:', buttonId);
